@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 80" width="450" height="80">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8A2387;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E94057;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F27121;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Minimalist Eye Icon -->
+  <g transform="translate(10, 20)">
+    <path d="M20 20 C 30 10, 50 10, 60 20 C 50 30, 30 30, 20 20 Z" fill="none" stroke="url(#brandGrad)" stroke-width="3"/>
+    <circle cx="40" cy="20" r="4" fill="url(#brandGrad)"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="85" y="48" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="1" fill="url(#brandGrad)">
+    WATCHERS <tspan font-weight="300">COMMUNITY</tspan>
+  </text>
+</svg>
